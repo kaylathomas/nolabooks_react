@@ -1,5 +1,101 @@
 :root {
-    --theme-orange: #ff9100;
+    --theme-orange: #ff7300;
+    --theme-light-orange: #ff9913;
     --theme-blue: #00b7ff;
+    --theme-light-blue: #6bd5ff;
     --theme-yellow: #fff8bc;
+}
+
+/*----------------------------*/
+/*            TEXT            */
+/*----------------------------*/
+
+.text-orange {
+    color: var(--theme-orange);
+}
+
+.text-light-orange {
+    color: var(--theme-light-orange);
+}
+
+.text-blue {
+    color: var(--theme-blue);
+}
+
+.text-light-blue {
+    color: var(--theme-light-blue);
+}
+
+.text-yellow {
+    color: var(--theme-yellow);
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-underline-overline {
+    text-decoration: underline;
+    text-decoration: overline;
+}
+
+/*----------------------------*/
+/*        BACKGROUNDS         */
+/*----------------------------*/
+
+.bg-orange {
+    background-color: var(--theme-orange);
+    color: #fff;
+}
+
+.bg-light-orange {
+    background-color: var(--theme-light-orange);
+    color: #fff;
+}
+
+.bg-blue {
+    background-color: var(--theme-blue);
+    color: #fff;
+}
+
+.bg-light-blue {
+    background-color: var(--theme-light-blue);
+    color: #fff;
+}
+
+.bg-yellow {
+    background-color: var(--theme-yellow);
+}
+
+/*----------------------------*/
+/*          BUTTONS           */
+/*----------------------------*/
+
+.btn-orange {
+    background-color: var(--theme-light-orange);
+    color: #fff;
+}
+
+.btn-orange:hover {
+    background-color: var(--theme-orange);
+    color: #fff;
+}
+
+.btn-blue {
+    background-color: var(--theme-light-blue);
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: var(--theme-blue);
+    color: #fff;
+}
+
+.btn-light-blue {
+    background-color: var(--theme-light-blue);
+    color: #fff;
+}
+
+.btn-yellow {
+    background-color: var(--theme-yellow);
 }
