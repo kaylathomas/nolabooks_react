@@ -14,17 +14,17 @@ function App() {
   return (
     <div>
       <Container fluid>
-        <Row className="pt-3 ml-5">
+        <Row className="pt-3 mx-5">
           <Col md={6}>
-            <i className="fa fa-calendar float-left fa-3x top-icons" aria-hidden="true"></i>
+            <i className="fa fa-calendar float-left fa-2x top-icons" aria-hidden="true"></i>
           </Col>
           <Col md={6}>
-            <i class="fa fa-cog fa-3x top-icons float-right" aria-hidden="true"></i>
+            <i class="fa fa-cog fa-2x top-icons float-right" aria-hidden="true"></i>
           </Col>
         </Row>
       </Container>
       <Row>
-        <Image className="nolabooks-logo pt-5 pb-4" src={nolaBooksLogoOrange} />
+        <Image className="nolabooks-logo pt-2 pb-4" src={nolaBooksLogoOrange} />
       </Row>
       <Row>
         <Container>
