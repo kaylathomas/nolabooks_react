@@ -1,7 +1,7 @@
 :root {
     --theme-orange: #ff7300;
     --theme-light-orange: #ff9913;
-    --theme-blue: #00b7ff;
+    --theme-blue: #0099ff;
     --theme-light-blue: #6bd5ff;
     --theme-yellow: #fff8bc;
 }
@@ -9,6 +9,20 @@
 /*----------------------------*/
 /*            TEXT            */
 /*----------------------------*/
+
+/* FONTS */
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-railway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-unica {
+    font-family: 'Unica One', sans-serif;
+}
 
 .text-orange {
     color: var(--theme-orange);
@@ -99,3 +113,58 @@
 .btn-yellow {
     background-color: var(--theme-yellow);
 }
+
+/*----------------------------*/
+/*        LAYOUT STYLE        */
+/*----------------------------*/
+
+.top-icons {
+    color: var(--theme-orange);
+}
+
+.top-icons:hover {
+    color: var(--theme-blue);
+    cursor: pointer;
+}
+
+.nolabooks-logo {
+    margin: auto;
+    width: 25%;
+    height: auto;
+}
+
+.budget-border-box {
+    border-style: solid;
+    border-color: var(--theme-orange);
+    border-width: 5px;
+    border-radius: 16px;
+}
+
+.tab-styling {
+    color: rgb(43, 43, 43);
+    border-style: solid;
+    border-color: var(--theme-orange);
+    border-width: 5px;
+    border-radius: 16px;
+    border-bottom-color: transparent;
+}
+
+.tab-heading {
+    font-size: 2.5rem;
+    font-family: 'Unica One', sans-serif;
+    border-color: var(--theme-light-orange)
+}
+
+.tab-heading:link {
+    color: rgb(43, 43, 43);
+}
+
+.accordion-header {
+    font-size: 1.3rem;
+    background-color: var(--theme-blue);
+    border-style: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
